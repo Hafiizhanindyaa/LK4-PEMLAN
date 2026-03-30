@@ -2,6 +2,8 @@ package srcGMR;
 
 public interface TransferGlobal extends TransaksiDigital, LayananInternasional {
     
-    public String getKodeSwift(); 
+    public void lakukanTransferGlobal(String rekeningTujuan, double jumlah, String mataUang);
+    
+    public String getKonfirmasiTransfer();
     
 }
